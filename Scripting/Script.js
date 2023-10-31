@@ -4,11 +4,11 @@ let menuD = document.querySelector('.menudown')
 
 
 menuD.onclick = ()  =>{
-    if (menuD.innerHTML == "Menu UP") {
-        menuD.innerHTML = "Menu DN";
+    if (menuD.innerHTML === "H") {
+        menuD.innerHTML = "L";
       } 
     else {
-        menuD.innerHTML = "Menu DN";
+        menuD.innerHTML = "H";
     }
     
 }
