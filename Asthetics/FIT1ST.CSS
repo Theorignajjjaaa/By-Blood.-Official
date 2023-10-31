@@ -70,13 +70,13 @@ header .head-C a:hover span{
         width: 100%;
         background-color: #d98383;
         text-align: center;
-        height: 280px;
+        height: 360px;
     }
 
     header .head-C nav a{
         display: flex;
-        margin: 10px 0px;
-        padding: 10px 180px;
+        margin: 20px 0px;
+        padding: 20px 0px;
         justify-content: center;
         background-color: red
     }
