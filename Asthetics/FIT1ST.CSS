@@ -57,6 +57,17 @@ header .head-C a:hover span{
         text-align: center;
         margin: 20px 0px;
     }
+
+    header .head-B {
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    header .head-B p{
+        background-color: #803232;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
     .head-C {
         display: flex;
         margin: 0px;
