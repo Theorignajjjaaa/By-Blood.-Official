@@ -49,16 +49,17 @@ header .head-C a:hover span{
     header {
         display: block;
         margin: 0px;
-        padding: 10px 20px;
+        padding: 10px 0px;
         text-align: center;
     }
 
     header .head-A p{
         margin-bottom: 20px;
+        
     }
 
     header .head-C {
-        background-color: beige;
+        background-color: transparent;
     }
     header .head-C a{
         font-size: 1.2rem;
