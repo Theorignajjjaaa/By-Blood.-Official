@@ -5,14 +5,9 @@
 
 
 body {
-
-    background-image: url('../assets/pexels-elti-meshau-333850.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #1b1b1b;
 
 
-    background-color: #f3a8a8;
     color: #fff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -22,15 +17,19 @@ a {
     color: #fff;
 }
 
+.whole_head {
+    height: 0;
+    
+}
+
 header {
-    margin: 20px 140px;
-    padding: 0px 5px;
-    border: solid red;
+    z-index: -1px;
+    padding: 40px 140px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1b1b1b;
+    height: -1;
 }
 
 header .head-A p{
@@ -53,6 +52,18 @@ header .head-C a:hover {
 
 header .head-C a:hover span{
     color: #d98383;
+}
+
+.wrapper {
+    display: flex;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    background-image: url(../assets/pexels-elti-meshau-333850.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center 0px;
 }
 
 @media only screen and (max-width: 600px) {
