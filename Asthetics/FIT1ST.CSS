@@ -21,8 +21,6 @@ header {
     z-index: -1px;
     margin: 20px 60px;
     padding: 20px;
-    border: solid red;
-    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
