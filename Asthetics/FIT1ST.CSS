@@ -96,6 +96,9 @@ header .head-C a:hover span{
         padding: 10px 0px;
         text-align: center;
     }
+    header .head-A p {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
 
     header .head-A p{
         margin-bottom: 20px;
