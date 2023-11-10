@@ -17,7 +17,7 @@ function typeWriter() {
 }
 function eRAZEWriter() {
   if (i == txt.length) {
-    document.querySelector('.text').innerHTML = "By Blood";
+    document.querySelector('.text').innerHTML = "By Blood.";
     i = 0;
   }
   

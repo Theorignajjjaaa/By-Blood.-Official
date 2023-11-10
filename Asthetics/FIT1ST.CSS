@@ -80,13 +80,11 @@ header .head-C a:hover span{
 }
 
 .wrapper .hero_A h1{
-    font-size: 5.1rem;
+    font-size: 3.1rem;
     user-select: none;
     color: #fff;
-    font-family:monospace;
+    font-family:'Courier New', Courier, monospace;
 }
-
-
 
 @media only screen and (max-width: 600px) {
 
@@ -118,7 +116,7 @@ header .head-C a:hover span{
         padding: 0px 20%;
     }
     .wrapper .hero_A h1{
-        font-size: 2.4rem;
+        font-size: 2.0rem;
         text-align: start;
     }
 
