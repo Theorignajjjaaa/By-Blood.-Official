@@ -106,16 +106,17 @@ header .head-C a:hover span{
         background-color: transparent;
     }
     header .head-C a{
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         margin: 0px 19px;
     }
 
     .wrapper .hero_A {
         width: 100%;
-        padding: 0px 17%;
+        padding: 0px 20%;
     }
     .wrapper .hero_A h1{
-        font-size: 3rem;
+        font-size: 2.4rem;
+        text-align: start;
     }
 
 }
