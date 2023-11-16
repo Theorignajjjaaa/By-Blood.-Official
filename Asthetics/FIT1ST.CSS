@@ -52,16 +52,14 @@ header .head-C a:hover {
     
 }
 
-header .head-C a:hover span{
-    color: #d98383;
-}
+
 
 .wrapper {
-    display: flex;
-    height: 500px;
-    align-items: center;
+    height: 336px;
+    align-items: flex-end;
     background-color: transparent;
     justify-content: center;
+    display: flex;
     /* background-color: #1b1b1b;
     background-image: url(../assets/pexels-elti-meshau-333850.jpg);
     background-size:cover;
@@ -85,6 +83,31 @@ header .head-C a:hover span{
     color: #fff;
     font-family:monospace;
 }
+.Wrapbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+
+.Wrapbot .btnss{
+    display: flex;
+    justify-content: space-around;
+}
+.Wrapbot .btnA {
+    border: solid 3px;
+    padding: 4px 50px;
+    margin: 0px 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    color: red;
+}
+
+.Wrapbot .btnA:hover {
+    color: #fff;
+    border: solid 3px #fff;
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -110,6 +133,9 @@ header .head-C a:hover span{
         font-size: 0.9rem;
         margin: 0px 19px;
     }
+    .wrapper {
+        height: 220px;
+    }
 
     .wrapper .hero_A {
         width: 100%;
@@ -118,6 +144,18 @@ header .head-C a:hover span{
     .wrapper .hero_A h1{
         font-size: 2.0rem;
         text-align: start;
+    }
+
+    .Wrapbot .btnss {
+        display: grid;
+        grid-template-rows: 40px 40px;
+        gap: 20px;
+        height: 20px;
+        
+    }
+    .Wrapbot .btnA {
+        padding: 5px 10px;
+        text-align: center;
     }
 
 }
