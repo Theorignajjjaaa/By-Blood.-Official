@@ -27,5 +27,9 @@ eRAZEWriter()
 typeWriter()
 
 
+function onT() {
+  window.open("https://www.youtube.com/watch?v=hvL1339luv0", "_blank");
+}
+
 
 
