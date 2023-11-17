@@ -41,7 +41,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: var(--Hd_Color);
 }
 
 header .head-A p{
@@ -150,6 +150,7 @@ header .head-C a:hover {
     background-color: orange;
     transition-property: all;
     transition-duration: 1.2s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
