@@ -9,6 +9,9 @@
     --fn_Color: #ffff;
     --hud: #fff;
     --hig_Color:lawngreen;
+    --Btn_Color: red;
+    transition-property: all;
+    transition-duration: 5s;
 }
 
 :root.DarkMode {
@@ -17,6 +20,7 @@
     --fn_Color: #000;
     --hud: #1b1b1b;
     --hig_Color:Blue;
+    --Btn_Color: grey;
 }
 
 
@@ -41,7 +45,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--Hd_Color);
+    background-color: transparent;
 }
 
 header .head-A p{
@@ -110,7 +114,7 @@ header .head-C a:hover {
     margin: 0px 20px;
     cursor: pointer;
     transition-duration: 0.4s;
-    color: red;
+    color: var(--Btn_Color);
 }
 
 .Wrapbot .btnA:hover {
@@ -145,9 +149,9 @@ header .head-C a:hover {
     margin-right: auto;
     width: 25px;
     height: 25px;
-    border: solid 1px orange;
+    border: solid 1px red;
     border-radius: 100px;
-    background-color: orange;
+    background-color: red;
     transition-property: all;
     transition-duration: 1.2s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -170,9 +174,10 @@ header .head-C a:hover {
         margin: 0px;
         padding: 10px 0px;
         text-align: center;
+        background-color: var(--Hd_Color);
     }
     header .head-A p {
-        font-family:fantasy;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     header .head-A p{
