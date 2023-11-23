@@ -35,13 +35,13 @@ function onT() {
 function onDark() {
   Darktog.classList.toggle('DarkMode');
   Roots.classList.toggle('DarkMode');
-  if (Darktog.innerHTML == "L"){
+  /*if (Darktog.innerHTML == "L"){
     Darktog.innerHTML = "D";
   }
   else{
     Darktog.innerHTML = "L";
   }
-  
+  */
 }
 
 
