@@ -71,7 +71,6 @@ header .head-C a:hover {
     height: 306px;
     align-items: flex-end;
     background-color: transparent;
-    justify-content: center;
     display: flex;
     /* background-color: #1b1b1b;
     background-image: url(../assets/pexels-elti-meshau-333850.jpg);
@@ -82,19 +81,19 @@ header .head-C a:hover {
     width: 100%;
     border-top: solid 2px transparent;
     border-bottom: solid 2px transparent;
-
+    justify-content: flex-end;
 
 }
 
 .wrapper .hero_A {
-    width: 30%;
+    width: 65%;
 }
 
 .wrapper .hero_A h1{
     font-size: 5.1rem;
     user-select: none;
     color: var(--fn_Color);
-    font-family:monospace;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .Wrapbot {
     display: flex;
@@ -153,7 +152,7 @@ header .head-C a:hover {
     background-color: #131313;
     transition-property: all;
     transition-duration: 1.2s;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
