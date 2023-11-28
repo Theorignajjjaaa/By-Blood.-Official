@@ -12,8 +12,10 @@
     --Btn_Color: #fff;
     transition-property: all;
     transition-duration: 5s;
+    --spec_color: red;
 }
 
+/*darkochild*/
 :root.DarkMode {
     --Bg_Color: #fff;
     --Hd_Color: #aaa;
@@ -21,6 +23,7 @@
     --hud: #1b1b1b;
     --hig_Color: blue;
     --Btn_Color: #000;
+    --spec_color: grey;
 }
 
 @font-face {
@@ -54,7 +57,7 @@ header {
 header .head-A p{
     font-size: 2.1rem;
     font-family: New_Font;
-    color: var(--hig_Color);
+    color: var(--spec_color);
 }
 
 header .head-C{
@@ -89,15 +92,20 @@ header .head-C a:hover {
 }
 
 .wrapper .hero_A {
-    width: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .wrapper .hero_A h1{
-    font-size: 7.1rem;
+    display: flex;
+    font-size: 6.6rem;
     user-select: none;
-    color: var(--fn_Color);
+    color: var(--spec_color);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 300;
+    width: 420px;
+    background-color: transparent;
 }
 .Wrapbot {
     display: flex;
@@ -112,6 +120,8 @@ header .head-C a:hover {
 }
 .Wrapbot .btnA {
     border: solid 3px;
+    font-size: 0.9rem;
+    font-weight: 600;
     padding: 4px 50px;
     margin: 0px 20px;
     cursor: pointer;
