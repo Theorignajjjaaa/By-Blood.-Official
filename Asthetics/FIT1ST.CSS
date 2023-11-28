@@ -8,7 +8,7 @@
     --Hd_Color: #1b1b1b;
     --fn_Color: #ffff;
     --hud: #fff;
-    --hig_Color:blue;
+    --hig_Color:RED;
     --Btn_Color: #fff;
     transition-property: all;
     transition-duration: 5s;
@@ -19,11 +19,14 @@
     --Hd_Color: #aaa;
     --fn_Color: #000;
     --hud: #1b1b1b;
-    --hig_Color:Blue;
+    --hig_Color: blue;
     --Btn_Color: #000;
 }
 
-
+@font-face {
+    font-family: New_Font;
+    src: url(../Font/SairaExtraCondensed-Bold.ttf);
+}
 
 body {
     background-color: var(--Bg_Color);
@@ -50,8 +53,8 @@ header {
 
 header .head-A p{
     font-size: 2.1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: red;
+    font-family: New_Font;
+    color: var(--hig_Color);
 }
 
 header .head-C{
@@ -62,7 +65,7 @@ header .head-C a {
     margin: 0px 21px 0px 23px;
 }
 header .head-C a:hover {
-    color: red;
+    color: var(--hig_Color);
 }
 
 
@@ -90,10 +93,11 @@ header .head-C a:hover {
 }
 
 .wrapper .hero_A h1{
-    font-size: 5.1rem;
+    font-size: 7.1rem;
     user-select: none;
     color: var(--fn_Color);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
 }
 .Wrapbot {
     display: flex;
@@ -206,11 +210,10 @@ header .head-C a:hover {
 
     .wrapper .hero_A {
         width: 100%;
-        padding: 0px 20%;
+        padding: 0px 30px;
     }
     .wrapper .hero_A h1{
-        font-size: 2.0rem;
-        text-align: start;
+        font-size: 4.9rem;
     }
 
     .Wrapbot .btnss {
