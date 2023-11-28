@@ -41,7 +41,7 @@ a {
 
 header {
     z-index: -1px;
-    padding: 20px 60px;
+    padding: 10px 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +49,7 @@ header {
 }
 
 header .head-A p{
-    font-size: 3.2rem;
+    font-size: 2.1rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: red;
 }
@@ -58,7 +58,7 @@ header .head-C{
     background-color: transparent;
 }
 header .head-C a {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     margin: 0px 21px 0px 23px;
 }
 header .head-C a:hover {
@@ -166,6 +166,13 @@ header .head-C a:hover {
 .wrapper ,.Wrapbot ,.Wrapbu{
     user-select: none;
 }
+
+.Nest {
+    border-top: solid #000;
+    height: 240px;
+    background-color: transparent;
+}
+
 
 
 @media only screen and (max-width: 600px) {
