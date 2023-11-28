@@ -101,11 +101,16 @@ header .head-C a:hover {
     display: flex;
     font-size: 6.6rem;
     user-select: none;
-    color: var(--spec_color);
+    /* color: var(--spec_color); */
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 300;
     width: 420px;
-    background-color: transparent;
+    background-image: url(../assets/ImTe.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased; 
 }
 .Wrapbot {
     display: flex;
@@ -136,7 +141,8 @@ header .head-C a:hover {
 
 .Wrapbu{
     display: flex;
-    height: 120px;
+    /*hieght 160*/
+    height: 246px;
     justify-content: flex-end;
     align-items: center;
     padding: 0px 20px;
@@ -182,7 +188,7 @@ header .head-C a:hover {
 }
 
 .Nest {
-    border-top: solid #000;
+    border-top: solid transparent;
     height: 240px;
     background-color: transparent;
 }
@@ -220,10 +226,14 @@ header .head-C a:hover {
 
     .wrapper .hero_A {
         width: 100%;
-        padding: 0px 30px;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
     .wrapper .hero_A h1{
-        font-size: 4.9rem;
+        font-size: 5.0rem;
+        width: 320px;
     }
 
     .Wrapbot .btnss {
