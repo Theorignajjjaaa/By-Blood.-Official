@@ -23,7 +23,7 @@
     --hud: #1b1b1b;
     --hig_Color: blue;
     --Btn_Color: #000;
-    --spec_color: grey;
+    --spec_color: red;
 }
 
 @font-face {
@@ -58,6 +58,7 @@ header .head-A p{
     font-size: 2.1rem;
     font-family: New_Font;
     color: var(--spec_color);
+    
 }
 
 header .head-C{
@@ -105,12 +106,14 @@ header .head-C a:hover {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 300;
     width: 420px;
-    background-image: url(../assets/ImTe.jpg);
+    /*trick*/
+    /* background-image: url(../assets/ImTe.jpg);
     background-repeat: repeat;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased; */
+
 }
 .Wrapbot {
     display: flex;
@@ -206,6 +209,11 @@ header .head-C a:hover {
     }
     header .head-A p {
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;  
     }
 
     header .head-A p{
